@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PAYG]">
+  <test thread-count="5" name="UExAPIPackage(failed)">
+    <classes>
+      <class name="com.UExAPI.ResponseTime">
+        <methods>
+          <include name="responseTimeReq1"/>
+        </methods>
+      </class> <!-- com.UExAPI.ResponseTime -->
+      <class name="com.UExAPI.EndDate">
+        <methods>
+          <include name="endDateWithValidParams"/>
+        </methods>
+      </class> <!-- com.UExAPI.EndDate -->
+      <class name="com.UExAPI.LinkSpeed">
+        <methods>
+          <include name="noRecords"/>
+        </methods>
+      </class> <!-- com.UExAPI.LinkSpeed -->
+      <class name="com.UExAPI.ApiKey">
+        <methods>
+          <include name="invalidapiKey"/>
+          <include name="validapiKeyWithValidParams"/>
+        </methods>
+      </class> <!-- com.UExAPI.ApiKey -->
+      <class name="com.UExAPI.ContentType">
+        <methods>
+          <include name="contentTypeformat"/>
+          <include name="contentTypeAvailabilityInHeaders"/>
+        </methods>
+      </class> <!-- com.UExAPI.ContentType -->
+      <class name="com.UExAPI.RT">
+        <methods>
+          <include name="rtFebMar"/>
+        </methods>
+      </class> <!-- com.UExAPI.RT -->
+      <class name="com.UExAPI.StartDate">
+        <methods>
+          <include name="startDateWithValidFormat"/>
+        </methods>
+      </class> <!-- com.UExAPI.StartDate -->
+      <class name="com.UExAPI.LastSolidId">
+        <methods>
+          <include name="lastSolidIdWithPagination"/>
+        </methods>
+      </class> <!-- com.UExAPI.LastSolidId -->
+      <class name="com.UExAPI.Success">
+        <methods>
+          <include name="successMsgTrue"/>
+        </methods>
+      </class> <!-- com.UExAPI.Success -->
+      <class name="com.UExAPI.Message">
+        <methods>
+          <include name="msgWitherrorCode"/>
+        </methods>
+      </class> <!-- com.UExAPI.Message -->
+      <class name="com.UExAPI.Result">
+        <methods>
+          <include name="resultValidate"/>
+        </methods>
+      </class> <!-- com.UExAPI.Result -->
+    </classes>
+  </test> <!-- UExAPIPackage(failed) -->
+</suite> <!-- Failed suite [PAYG] -->

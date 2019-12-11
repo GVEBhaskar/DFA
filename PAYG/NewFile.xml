@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PAYG">
+  <test thread-count="5" name="UExAPIPackage">
+    <classes>
+      <class name="com.UExAPI.ContentType"/>
+      <class name="com.UExAPI.ApiKey"/>
+      <class name="com.UExAPI.StartDate"/>
+      <class name="com.UExAPI.EndDate"/>
+      <class name="com.UExAPI.LastSolidId"/>
+      <class name="com.UExAPI.Success"/>
+      <class name="com.UExAPI.Message"/>
+      <class name="com.UExAPI.Result"/>
+      <class name="com.UExAPI.LinkSpeed"/>
+      <class name="com.UExAPI.ResponseTime"/>
+      <class name="com.UExAPI.RT"/>
+    </classes>
+  </test> <!-- UExAPIPackage -->
+</suite> <!-- PAYG -->
